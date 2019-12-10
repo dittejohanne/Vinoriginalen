@@ -485,6 +485,46 @@ margin-top: 3%;
 /*VORES VINE SLUT-----------------------------------------------------*/
 
 
+/* UNDERSIDE: om vingården --------------------------------------- */
+
+#om_vingaarden {width: 100%;}
+
+#om_vingaarden_tekst {
+    text-align: center;
+    padding: 0 10% 0 10%;
+    margin-bottom: 10%;
+}
+
+#om_vingaarden_tekst {
+    color: #90943a;
+}
+
+#tønder_om_vingården {
+    width: 100%;
+}
+
+#flex-content {
+    text-align: center; margin-bottom: 3%;
+}
+
+.to_tekster > h2 {
+    text-transform: uppercase;
+}
+
+.to_tekster > p {
+    color: #90943a;
+}
+
+#om_vingaarden_tekst > h2 {
+    text-transform: uppercase;
+}
+
+#kasse_druer{
+    width: 100%;
+}
+
+/*om vingården SLUT-----------------------------------------------------*/
+
 
 
 /* UNDERSIDE: Book vinsmagning --------------------------------------- */
@@ -629,6 +669,21 @@ margin-top: 3%;
         float: left;
         font-size: 0.8em;
     }
+
+    /* UNDERSIDE: OMVINGÅRDEN 700px--------------------------------------- */
+
+    #flex-content {
+        display: flex; flex-wrap: wrap;
+    }
+    
+    .to_tekster {
+        width: 45%;
+    }
+
+#flex-content {
+    justify-content: center; margin-bottom: 3%;}
+
+    /* SLUT UNDERSIDE: OMVINGÅRDEN 700px--------------------------------------- */
 
     /* UNDERSIDE: Book vinsmagning 700px--------------------------------------- */
 
