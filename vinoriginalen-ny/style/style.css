@@ -1,0 +1,837 @@
+body {
+    background-image: url("../img/marmor_baggrund.png");
+    margin: 0%;
+}
+
+footer,
+footer h4 {
+    background-color: #90943a;
+    height: 20%;
+    color: #ddd
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+/*Burgermenu!*/
+
+.burger {
+    width: 40px;
+    height: 5px;
+    background-color: #90943a;
+    margin: 6px;
+    border-radius: 2px;
+}
+
+#burgerbutton {
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+}
+
+#burgerdropdown {
+    position: relative;
+    /*left: 85%;*/
+}
+
+#burgercontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 20px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+#burgercontent a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+#burgercontent a:hover {
+    background-color: #ddd;
+}
+
+#burgerdropdown:hover #burgercontent {
+    display: block;
+}
+
+ul {
+    display: none;
+}
+
+#flexcontainer1 {
+    position: relative;
+}
+
+a {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #90943a;
+}
+
+/*Burgermenu slutter*/
+
+h1 {
+    font-family: olicana-fine, sans-serif;
+    font-size: 2em;
+    color: #90943a;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+ul li {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: capitalize;
+    color: #90943a;
+}
+
+p {
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: 300;
+    margin: 0%;
+    font-style: normal;
+}
+
+/* Ny menudel */
+#menu {display: flex; flex-wrap: wrap; margin: 0%; align-items: center; justify-content: center; width: 100%;}
+
+#menu_del1 {width: 22%;}
+
+#menu_del2 {width: 22%; text-align: right;}
+
+#menu_del2 p {font-size: 0.4em; color: #90943a;}
+
+#titel {
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.streg {
+    width: 100%;
+    height: 3px;
+    background-color: #90943a;
+    margin: 0 auto;
+    
+}
+
+#indkøbskurv {max-width: 20%;}
+
+
+#vingaarden {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#overgang_grøn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 5%;
+
+}
+
+/* Første sektion om vine */
+#treVine {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vin_et {
+    width: 60%;
+
+    
+}
+
+#belmesseri {
+    text-align: center;
+    width: 100%;
+
+}
+
+#tafuri {
+    display: none;
+}
+
+#lagra {
+    display: none;
+}
+
+#voresvine_knap {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    background-color: #90943a;
+    border: none;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+#knap_tekst {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.vinnavn {
+    margin: 0%;
+}
+
+.kort_streg {
+    margin: 0%;
+    width: 45%;
+}
+
+
+/*Collage af billeder og tekst*/
+#tønder {
+    display: none;
+}
+
+#vinmark {
+    display: none;
+}
+
+#overdel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vinglas {
+    width: 50%;
+}
+
+.hvidtekst {
+    color: #e9e2d3;
+    margin-bottom: 0%;
+}
+
+#vingaard_knap {
+    margin-top: 9%;
+    margin-bottom: 15%;
+    background-color: #e9e2d3;
+    border: none;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#book_knap {
+    margin-top: 9%;
+    margin-bottom: 15%;
+    background-color: #e9e2d3;
+    border: none;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.grøntekst {
+    color: #90943a;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+}
+
+#overdel_tekst {
+    background-color: #90943a;
+    width: 48%;
+    text-align: center;
+    padding: 1%;
+}
+
+.overgang_hvid {
+    width: 80%;
+}
+
+#underdel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#underdel_tekst {
+    width: 48%;
+    padding: 1%;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+#guieseppes1 {
+    width: 50%;
+}
+
+#lang_streg {
+    width: 70%;
+}
+
+#lidtomvingaarden {
+    text-align: center;
+}
+
+#pynt {
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#guieseppes2 {
+    width: 100%;
+}
+
+
+/* footer */
+/*underside*/
+#druer {
+    width: 100%;
+}
+
+#voresvineoverskrift {
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: black;
+}
+
+#vinnavn {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+#vineflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vin {
+    width: 50%;
+}
+
+#beskrivelse {
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: 200;
+}
+
+#passertil {
+    font-weight: 900;
+    padding-top: 2em;
+}
+
+
+
+#footer {
+    background-color: #90943a;
+    padding: 3%;
+}
+
+h5 {
+    color: whitesmoke;
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#footer_foerst {
+    color: whitesmoke;
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+#footer_midt {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer p, h5 {color: #e9e2d3;}
+
+
+#footer_slut {
+    width: 100%;
+}
+
+#footer_slut section a {
+   color: #e9e2d3; font-size: 1em; text-transform: none; font-family:'gill-sans-nova', sans-serif;
+}
+
+#footer_slut section {
+margin-top: 3%;    
+ }
+
+#adresse {
+    display: flex;
+    align-items: center;
+
+}
+
+#telefon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#mail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#punkt_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#punkt_2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#punkt_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#punkt_4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_footer {
+    padding: 2%;
+}
+
+#footer_sociale_medier {
+    text-align: right;
+    padding: 2%;
+}
+
+#footer_sociale_medier img {
+    width: 7%;
+}
+
+/* UNDERSIDE VORES VINE--------------------------------------------------------*/
+#druer {
+    width: 100%;
+}
+
+
+#voresvineoverskrift {
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color:#90943a;
+}
+
+#vinnavn {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif; 
+    color: #1f1f1f;
+    padding-top: 5%;
+    padding-left: 5%;
+
+}
+
+#vineflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vv_lagra, #vv_tafuri, #vv_belmesseri {
+    width: 40%;
+    padding-top: 10%;
+    margin: 5%;
+}
+
+#beskrivelse {
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+#beskrivelse, li{ 
+    font-size: 15px;
+    font-family: 'gill-sans-nova', sans-serif;
+}
+
+#passertil {
+    font-weight: 900;
+    padding-top: 2em;
+}
+/*VORES VINE SLUT-----------------------------------------------------*/
+
+
+
+
+/* UNDERSIDE: Book vinsmagning --------------------------------------- */
+
+#vinsmagning_1 {
+    width: 100%;
+}
+
+
+.h2_book {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#h3_book {
+    text-align: center;
+    margin-top: 8%;
+    color: black;
+
+}
+
+#p_book {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #90943a;
+}
+
+#vinsmagning_2 {
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+#vinsmagning_3 {
+    width: 100%;
+}
+
+#vinsmagning_4 {
+    width: 100%;
+}
+
+.button {
+    background-color: #90943a;
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+}
+
+
+
+/* breakpoint Tablet
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width:700px) {
+
+    #menu_del2 p {
+        font-size: 0.77em;
+    } 
+    
+    /*Forsiden*/
+    #tafuri {
+        display: block;
+        text-align: center;
+        width: 50%;
+
+    }
+
+    #vin_et {
+        width: 50%;
+    }
+
+    #vin_to {
+        width: 50%;
+    }
+    
+    #belmesseri {
+        text-align: center;
+        width: 50%;
+    }
+
+    .kort_streg {
+        width: 51%;
+    }
+
+    #lidtomvingaarden {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    /**/
+
+    #flexcontainer1 {
+        display: none;
+    }
+
+    h1 {
+        font-family: olicana-fine, sans-serif;
+        font-size: 60px;
+        color: #90943a;
+    }
+
+    h2,
+    h3,
+    h4,
+    ul li {
+        font-family: 'Libre Baskerville', serif;
+        text-transform: uppercase;
+        color: #90943a;
+    }
+
+    p {
+        font-family: 'gill-sans-nova', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    ul {
+        list-style-type: none;
+        display: block; 
+        margin-top: 5%; 
+        text-align: center;
+        padding: 0%;
+    }
+
+    li {display: inline-block; 
+        margin: 0% 2% 0% 2%;}
+
+    li a {
+        text-decoration: none;
+        color: #90943a;
+        display: block;
+        float: left;
+        font-size: 0.8em;
+    }
+
+    /* UNDERSIDE: Book vinsmagning 700px--------------------------------------- */
+
+    #book_første_del {
+        padding: 0% 7% 0 7%;
+    }
+
+    #overgang_grøn {
+        width: 60%;
+    }
+
+    #vinsmagning_2 {
+        width: 33.3%;
+        margin-top: 0%;
+
+    }
+
+    #vinsmagning_3 {
+        width: 33.3%;
+    }
+
+    #vinsmagning_4 {
+        width: 33.4%;
+    }
+
+    #billeder_book {
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+
+    .button {
+        padding: 2% 8%;
+        font-size: 1em;
+
+    }
+
+    #h3_book {
+        margin-top: 4%;
+    }
+
+/* footer 700px--------------------------------------- */
+
+#footer_foerst {
+    width: 30%;
+    padding-right: 5%;
+    margin-bottom: 0%;
+}
+
+#footer_foerst h5 {
+    margin: 1% 0% 4% 0%;
+}
+
+#footer_midt {
+    width: 30%;
+    padding: 0% 5% 0% 5%;
+    margin: 0%;
+}
+
+#footer_slut {
+    width: 20%;
+    padding-left: 3%;
+}
+
+#footer_sociale_medier {
+    padding: 0%;
+}
+
+#footer_sociale_medier img {
+    width: 5%;
+}
+
+#footer_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#footer_sociale_medier img {
+    width: 3%;
+}
+
+}
+
+/* breakpoint PC
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width:1000px) {
+
+    /* GENERELT .....1000px*/
+  
+    li a { font-size: 1.1em; }
+
+    #menu_del2 p {
+        font-size: 1em;
+    } 
+    
+    #indkøbskurv {
+        max-width: 13%;
+    }
+
+    #titel {
+        width: 30%;
+    }
+
+    #menu_del1 {
+        width: 28%;
+    }
+
+    #menu_del2 {
+        width: 28%;
+    }
+
+ /* UNDERSIDE: FORSIDE.....1000px*/
+    #tafuri {
+        display: block;
+        text-align: center;
+        width: 33%;
+
+    }
+
+    #lagra {
+        display: block;
+        text-align: center;
+        width: 33%;
+    }
+
+    #vin_et {
+        width: 60%;
+    }
+
+    #vin_to {
+        width: 60%;
+    }
+
+    #vin_tre {
+        width: 60%;
+    }
+    
+    #belmesseri {
+        text-align: center;
+        width: 33%;
+    }
+
+    .kort_streg {
+        width: 41%;
+    }
+    
+    #tønder {
+        display: block;
+        margin: 0%;
+        width: 48%;
+    }
+    
+    #vinmark {
+        display: block;
+        margin: 0%;
+        width: 48%;
+    }
+
+    #overdel_tekst {
+        width: 25%;
+    }
+
+    #underdel_tekst {
+        width: 25%;
+    }
+
+#billeder_book{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    }
+
+    #vinglas {
+        width: 25%;
+    }
+
+    #guieseppes1{
+        width: 25%;
+    }
+
+    #lidtomvingaarden {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    #pynt {
+        width: 15%;
+    }
+
+    /* UNDERSIDE: Book vinsmagning.....1000px*/
+   
+    #p_book p {
+        font-size: 1.2em;
+    }
+
+    .button {
+        padding: 19.5px 78.7px;
+        font-size: 1em;
+
+    }
+
+}
