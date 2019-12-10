@@ -193,7 +193,7 @@ p {
 
 }
 
-#knap_tekst {
+#stekst {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     color: white;
@@ -511,7 +511,7 @@ margin-top: 3%;
 }
 
 #flex-content {
-    text-align: center; margin-bottom: 3%;
+    text-align: center; margin-bottom: 3%; padding: 5%;
 }
 
 .to_tekster > h2 {
@@ -530,6 +530,71 @@ margin-top: 3%;
     width: 100%;
 }
 
+.streg_hvid {
+    width: 60%;
+    height: 1px;
+    background-color: #e9e2d3;
+    margin: 0 auto;
+    
+}
+
+#tekst_på_billeder_1 h2{
+    font-size:4vw; margin: 1% 1% ; color: #e9e2d3; text-transform: uppercase;
+}
+
+#tekst_på_billeder_1 {
+    text-align: center; 
+    width: 60%;
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+}
+
+#tekst_på_billeder_1 img {
+    width: 20%;
+}
+
+#tekst_på_billeder_1 p {
+    margin-bottom: 3%; z-index: 1; font-size:2.5vw; color: #e9e2d3;
+}
+
+.container_vingaard {position: relative;}
+
+#tekst_på_billeder_2 h2{
+    font-size:4vw; margin: 1% 1% ; color: #e9e2d3; text-transform: uppercase;
+}
+
+#tekst_på_billeder_2 {
+    text-align: center; 
+    width: 60%;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+
+#tekst_på_billeder_2 img {
+    width: 20%;
+}
+
+#tekst_på_billeder_2 p {
+    margin-bottom: 3%; z-index: 1; font-size:2.5vw; color: #e9e2d3;
+}
+
+#button_vingaarden{
+background-color: #90943a;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size:2vw;
+margin: 6px 4px;
+cursor: pointer;
+border-radius: 4px;
+font-family: 'Libre Baskerville', serif;
+text-transform: uppercase;
+}
 /*om vingården SLUT-----------------------------------------------------*/
 
 
@@ -716,13 +781,20 @@ body {
 }
 
 #kontakt_overskrift > h2 {
-text-transform: uppercase; font-size: 22px;
+text-transform: uppercase; font-size: 25px;
 }
 
 .width_100 {
     width: 100%;
 }
 
+#karina {width: 100%;}
+
+#karinas_tekst
+    {width: 91%; padding: 5%; text-align: center; background-color: #FFF;}
+
+    #karinas_tekst img
+    {width: 100%;}
 /* UNDERSIDE: kontakt slut --------------------------------------- */
 
 
@@ -822,7 +894,44 @@ text-transform: uppercase; font-size: 22px;
     }
     
     .to_tekster {
-        width: 45%;
+        width: 45%; padding: 2.5%;
+        font-size: 16px;
+    }
+    
+    #tekst_på_billeder_1 h2 {
+        font-size: 18px;
+    }
+
+    #tekst_på_billeder_1 p {
+        font-size: 13px;
+    }
+
+    #button_vingaarden{
+        font-size: 10px;
+    }
+
+    #tekst_på_billeder_1 {
+        text-align: center; 
+        width: 50%;
+        position: absolute;
+        bottom: 40px;
+        right: 16px;
+    }
+
+    #tekst_på_billeder_2 {
+        text-align: center; 
+        width: 50%;
+        position: absolute;
+        bottom: 30px;
+        left: 16px;
+    }
+
+    #tekst_på_billeder_2 h2 {
+        font-size: 18px;
+    }
+
+    #tekst_på_billeder_2 p {
+        font-size: 13px;
     }
 
 #flex-content {
@@ -869,6 +978,32 @@ text-transform: uppercase; font-size: 22px;
 
     #h3_book {
         margin-top: 4%;
+
+    }
+
+    #p_book > p {
+        font-size: 16px;
+    }
+
+
+    /* kontakt 700px--------------------------------------- */
+    #karina {
+        width: 100%;
+    }
+    
+    #karinas_billede {
+        width: 45%;
+    }
+    
+    #karinas_tekst
+    {width: 45%;}
+
+    #karinas_tekst p {
+        font-size: 14px;
+    }
+    
+    #flex_kontakt {
+        display: flex; flex-wrap: wrap; ;
     }
 
 /* footer 700px--------------------------------------- */
@@ -1024,14 +1159,63 @@ text-transform: uppercase; font-size: 22px;
 
     /* UNDERSIDE: Book vinsmagning.....1000px*/
    
-    #p_book p {
-        font-size: 1.2em;
-    }
 
     .button {
         padding: 19.5px 78.7px;
         font-size: 1em;
 
+    }
+
+    /* UNDERSIDE: vingården.....1000px*/
+
+    #tekst_på_billeder_1 h2 {
+        font-size: 20px;
+    }
+
+    #tekst_på_billeder_1 p {
+        font-size: 16px;
+    }
+
+    #button_vingaarden{
+        font-size: 13px;
+    }
+
+    #tekst_på_billeder_1 {
+        text-align: center; 
+        width: 35%;
+        position: absolute;
+        bottom: 80px;
+        right: 16px;
+    }
+
+    #tekst_på_billeder_2 h2 {
+        font-size: 20px;
+    }
+
+    #tekst_på_billeder_2 p {
+        font-size: 16px;
+    }
+
+    #tekst_på_billeder_2 {
+        text-align: center; 
+        width: 35%;
+        position: absolute;
+        bottom: 50px;
+        left: 16px;
+    }
+
+    /* UNDERSIDE: kontakt.....1000px*/
+
+    #karinas_tekst p {
+        font-size: 16px;
+    }
+
+    .h2_book {
+        font-size: 24px;
+    }
+
+    #p_book > p {
+        font-size: 18px;
     }
 
 }
