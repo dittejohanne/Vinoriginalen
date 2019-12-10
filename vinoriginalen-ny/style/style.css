@@ -1,12 +1,12 @@
 body {
-    
+
     margin: 0%;
 }
 
 #body_wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url("../img/marmor_baggrund.png");
+    background-image: url("../img/marmor_baggrund.jpg");
 }
 
 footer,
@@ -85,7 +85,7 @@ a {
 
 /*Burgermenu slutter*/
 
-h1 {
+a h1 {
     font-family: olicana-fine, sans-serif;
     font-size: 2em;
     color: #90943a;
@@ -111,29 +111,48 @@ p {
 }
 
 /* Ny menudel */
-#menu {display: flex; flex-wrap: wrap; margin: 0%; align-items: center; justify-content: center; width: 100%;}
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
-#menu_del1 {width: 22%;}
+#menu_del1 {
+    width: 22%;
+}
 
-#menu_del2 {width: 22%; text-align: right;}
+#menu_del2 {
+    width: 22%;
+    text-align: right;
+}
 
-#menu_del2 p {font-size: 0.4em; color: #90943a;}
+#menu_del2 p {
+    font-size: 0.4em;
+    color: #90943a;
+}
 
 #titel {
     align-items: center;
     justify-content: space-around;
     width: 50%;
+
 }
+
 
 .streg {
     width: 100%;
     height: 3px;
     background-color: #90943a;
     margin: 0 auto;
-    
+
 }
 
-#indkøbskurv {max-width: 20%;}
+#indkøbskurv {
+    max-width: 20%;
+}
 
 
 #vingaarden {
@@ -159,7 +178,7 @@ p {
 #vin_et {
     width: 60%;
 
-    
+
 }
 
 #belmesseri {
@@ -292,11 +311,13 @@ p {
 }
 
 #lang_streg {
-    width: 70%;
+    width: 100%;
+   
 }
 
 #lidtomvingaarden {
     text-align: center;
+    margin-top: 4%;
 }
 
 #pynt {
@@ -314,6 +335,7 @@ p {
 /*underside*/
 #druer {
     width: 100%;
+    margin-top: 3%;
 }
 
 #voresvineoverskrift {
@@ -375,7 +397,10 @@ h5 {
     margin-bottom: 5%;
 }
 
-footer p, h5 {color: #e9e2d3;}
+footer p,
+h5 {
+    color: #e9e2d3;
+}
 
 
 #footer_slut {
@@ -383,12 +408,15 @@ footer p, h5 {color: #e9e2d3;}
 }
 
 #footer_slut section a {
-   color: #e9e2d3; font-size: 1em; text-transform: none; font-family:'gill-sans-nova', sans-serif;
+    color: #e9e2d3;
+    font-size: 1em;
+    text-transform: none;
+    font-family: 'gill-sans-nova', sans-serif;
 }
 
 #footer_slut section {
-margin-top: 3%;    
- }
+    margin-top: 3%;
+}
 
 #adresse {
     display: flex;
@@ -451,12 +479,12 @@ margin-top: 3%;
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    color:#90943a;
+    color: #90943a;
 }
 
 #vinnavn {
     font-size: 20px;
-    font-family: 'Libre Baskerville', serif; 
+    font-family: 'Libre Baskerville', serif;
     color: #1f1f1f;
     padding-top: 5%;
     padding-left: 5%;
@@ -468,7 +496,9 @@ margin-top: 3%;
     flex-wrap: wrap;
 }
 
-#vv_lagra, #vv_tafuri, #vv_belmesseri {
+#vv_lagra,
+#vv_tafuri,
+#vv_belmesseri {
     width: 40%;
     padding-top: 10%;
     margin: 5%;
@@ -478,9 +508,11 @@ margin-top: 3%;
     font-family: 'gill-sans-nova', sans-serif;
     font-weight: 200;
     font-size: 15px;
-    
+
 }
-#beskrivelse, li{ 
+
+#beskrivelse,
+li {
     font-size: 15px;
     font-family: 'gill-sans-nova', sans-serif;
 }
@@ -489,12 +521,16 @@ margin-top: 3%;
     font-weight: 900;
     padding-top: 2em;
 }
+
 /*VORES VINE SLUT-----------------------------------------------------*/
 
 
 /* UNDERSIDE: om vingården --------------------------------------- */
 
-#om_vingaarden {width: 100%;}
+#om_vingaarden {
+    width: 100%;
+    margin-top: 3%;
+}
 
 #om_vingaarden_tekst {
     text-align: center;
@@ -502,8 +538,16 @@ margin-top: 3%;
     margin-bottom: 10%;
 }
 
+#om_vingaarden_overskrift {
+    font-size: 36px;
+}
+
 #om_vingaarden_tekst {
     color: #90943a;
+}
+
+#om_vingaarden_tekst {
+    font-size: 20px;
 }
 
 #tønder_om_vingården {
@@ -511,22 +555,23 @@ margin-top: 3%;
 }
 
 #flex-content {
-    text-align: center; margin-bottom: 3%;
+    text-align: center;
+    margin-bottom: 3%;
 }
 
-.to_tekster > h2 {
+.to_tekster>h2 {
     text-transform: uppercase;
 }
 
-.to_tekster > p {
+.to_tekster>p {
     color: #90943a;
 }
 
-#om_vingaarden_tekst > h2 {
+#om_vingaarden_tekst>h2 {
     text-transform: uppercase;
 }
 
-#kasse_druer{
+#kasse_druer {
     width: 100%;
 }
 
@@ -538,6 +583,7 @@ margin-top: 3%;
 
 #vinsmagning_1 {
     width: 100%;
+    margin-top: 3%;
 }
 
 
@@ -596,127 +642,143 @@ margin-top: 3%;
 
 
 body {
-	font:400 12px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#444;
+    font: 400 12px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
 
 
-}	
-.wrapper {
-	max-width:500px;
-	width:95%;
-	margin:0 auto;
-	position:relative;
 }
+
+.wrapper {
+    max-width: 500px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form input[type="tel"],
 #contact-form input[type="url"],
 #contact-form textarea,
 #contact-form button[type="submit"] {
-	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 #contact-form {
-	text-shadow:0 1px 0 #FFF;
-	border-radius:4px;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	background:#F9F9F9;
-    padding:25px;
+    text-shadow: 0 1px 0 #FFF;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #F9F9F9;
+    padding: 25px;
     margin-bottom: 10%;
 }
+
 #contact-form h3 {
-	color: #90943a;
-	display:block;
-    font-size:16px;
+    color: #90943a;
+    display: block;
+    font-size: 16px;
     margin: 2% 0 2% 0;
     text-transform: uppercase;
-    
+
 }
 
 #contact-form label span {
-	cursor:pointer;
-	color:#90943a;
-	display:block;
-	margin:5px 0;
-	font-weight:900;
+    cursor: pointer;
+    color: #90943a;
+    display: block;
+    margin: 5px 0;
+    font-weight: 900;
 }
+
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form input[type="tel"],
 #contact-form input[type="url"],
 #contact-form textarea {
-	width:100%;
-	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	border:1px solid #CCC;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	border-radius:5px;
+    width: 100%;
+    box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -webkit-box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -moz-box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 #contact-form input[type="text"]:hover,
 #contact-form input[type="email"]:hover,
 #contact-form input[type="tel"]:hover,
 #contact-form input[type="url"]:hover,
 #contact-form textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
 }
+
 #contact-form textarea {
-	height:100px;
-	max-width:100%;
+    height: 100px;
+    max-width: 100%;
 }
+
 #contact-form button[type="submit"] {
-	cursor:pointer;
-	width:100%;
-    border:none;
-    background:#90943a;
-	background-image:linear-gradient(bottom, #90943a 0%, #90943a 52%);
-	background-image:-moz-linear-gradient(bottom, #90943a 0%, #90943a 52%);
-	background-image:-webkit-linear-gradient(bottom, #90943a 0%, #90943a 52%);
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	border-radius:5px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #90943a;
+    background-image: linear-gradient(bottom, #90943a 0%, #90943a 52%);
+    background-image: -moz-linear-gradient(bottom, #90943a 0%, #90943a 52%);
+    background-image: -webkit-linear-gradient(bottom, #90943a 0%, #90943a 52%);
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 #contact-form button[type="submit"]:hover {
-	background-image:linear-gradient(bottom, #5c5f23 0%, #5c5f23 52%);
-	background-image:-moz-linear-gradient(bottom, #5c5f23 0%, #5c5f23 52%);
-	background-image:-webkit-linear-gradient(bottom, #5c5f23 0%, #5c5f23 52%);
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
+    background-image: linear-gradient(bottom, #5c5f23 0%, #5c5f23 52%);
+    background-image: -moz-linear-gradient(bottom, #5c5f23 0%, #5c5f23 52%);
+    background-image: -webkit-linear-gradient(bottom, #5c5f23 0%, #5c5f23 52%);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
+
 #contact-form button[type="submit"]:active {
-	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+
 #contact-form input:focus,
 #contact-form textarea:focus {
-	outline:0;
-	border:1px solid #999;
+    outline: 0;
+    border: 1px solid #999;
 }
+
 ::-webkit-input-placeholder {
-    color:#888;
+    color: #888;
 }
+
 :-moz-placeholder {
-    color:#888;
+    color: #888;
 }
+
 ::-moz-placeholder {
-    color:#888;
+    color: #888;
 }
+
 :-ms-input-placeholder {
-    color:#888;
+    color: #888;
 }
 
 #kontakt_overskrift {
     text-align: center;
 }
 
-#kontakt_overskrift > h2 {
-text-transform: uppercase; font-size: 22px;
+#kontakt_overskrift>h2 {
+    text-transform: uppercase;
+    font-size: 22px;
 }
 
 .width_100 {
@@ -734,12 +796,12 @@ text-transform: uppercase; font-size: 22px;
     #almindeligmenu {
         padding-top: 5%;
     }
-    
-    
+
+
     #menu_del2 p {
         font-size: 0.77em;
-    } 
-    
+    }
+
     /*Forsiden*/
     #tafuri {
         display: block;
@@ -755,7 +817,7 @@ text-transform: uppercase; font-size: 22px;
     #vin_to {
         width: 50%;
     }
-    
+
     #belmesseri {
         text-align: center;
         width: 50%;
@@ -769,6 +831,7 @@ text-transform: uppercase; font-size: 22px;
         padding-left: 5%;
         padding-right: 5%;
     }
+
     /**/
 
     #flexcontainer1 {
@@ -798,14 +861,16 @@ text-transform: uppercase; font-size: 22px;
 
     ul {
         list-style-type: none;
-        display: block; 
-        margin-top: 0%; 
+        display: block;
+        margin-top: 0%;
         text-align: center;
         padding: 0%;
     }
 
-    li {display: inline-block; 
-        margin: 0% 2% 0% 2%;}
+    li {
+        display: inline-block;
+        margin: 0% 2% 0% 2%;
+    }
 
     li a {
         text-decoration: none;
@@ -818,15 +883,18 @@ text-transform: uppercase; font-size: 22px;
     /* UNDERSIDE: OMVINGÅRDEN 700px--------------------------------------- */
 
     #flex-content {
-        display: flex; flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
-    
+
     .to_tekster {
         width: 45%;
     }
 
-#flex-content {
-    justify-content: center; margin-bottom: 3%;}
+    #flex-content {
+        justify-content: center;
+        margin-bottom: 3%;
+    }
 
     /* SLUT UNDERSIDE: OMVINGÅRDEN 700px--------------------------------------- */
 
@@ -871,46 +939,46 @@ text-transform: uppercase; font-size: 22px;
         margin-top: 4%;
     }
 
-/* footer 700px--------------------------------------- */
+    /* footer 700px--------------------------------------- */
 
-#footer_foerst {
-    width: 30%;
-    padding-right: 5%;
-    margin-bottom: 0%;
-}
+    #footer_foerst {
+        width: 30%;
+        padding-right: 5%;
+        margin-bottom: 0%;
+    }
 
-#footer_foerst h5 {
-    margin: 1% 0% 4% 0%;
-}
+    #footer_foerst h5 {
+        margin: 1% 0% 4% 0%;
+    }
 
-#footer_midt {
-    width: 30%;
-    padding: 0% 5% 0% 5%;
-    margin: 0%;
-}
+    #footer_midt {
+        width: 30%;
+        padding: 0% 5% 0% 5%;
+        margin: 0%;
+    }
 
-#footer_slut {
-    width: 20%;
-    padding-left: 3%;
-}
+    #footer_slut {
+        width: 20%;
+        padding-left: 3%;
+    }
 
-#footer_sociale_medier {
-    padding: 0%;
-}
+    #footer_sociale_medier {
+        padding: 0%;
+    }
 
-#footer_sociale_medier img {
-    width: 5%;
-}
+    #footer_sociale_medier img {
+        width: 5%;
+    }
 
-#footer_wrap {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
+    #footer_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
-#footer_sociale_medier img {
-    width: 3%;
-}
+    #footer_sociale_medier img {
+        width: 3%;
+    }
 
 }
 
@@ -919,13 +987,15 @@ text-transform: uppercase; font-size: 22px;
 @media only screen and (min-width:1000px) {
 
     /* GENERELT .....1000px*/
-  
-    li a { font-size: 1.1em; }
+
+    li a {
+        font-size: 1.1em;
+    }
 
     #menu_del2 p {
         font-size: 1em;
-    } 
-    
+    }
+
     #indkøbskurv {
         max-width: 13%;
     }
@@ -942,7 +1012,7 @@ text-transform: uppercase; font-size: 22px;
         width: 28%;
     }
 
- /* UNDERSIDE: FORSIDE.....1000px*/
+    /* UNDERSIDE: FORSIDE.....1000px*/
     #tafuri {
         display: block;
         text-align: center;
@@ -967,7 +1037,7 @@ text-transform: uppercase; font-size: 22px;
     #vin_tre {
         width: 60%;
     }
-    
+
     #belmesseri {
         text-align: center;
         width: 33%;
@@ -976,13 +1046,13 @@ text-transform: uppercase; font-size: 22px;
     .kort_streg {
         width: 41%;
     }
-    
+
     #tønder {
         display: block;
         margin: 0%;
         width: 48%;
     }
-    
+
     #vinmark {
         display: block;
         margin: 0%;
@@ -997,33 +1067,37 @@ text-transform: uppercase; font-size: 22px;
         width: 25%;
     }
 
-#billeder_book{
-    width: 100%;
-    margin-top: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 5%;
+    #billeder_book {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
     }
 
     #vinglas {
         width: 25%;
     }
 
-    #guieseppes1{
+    #guieseppes1 {
         width: 25%;
     }
 
+    #om_vingaarden_tekst {
+        padding: 0%;
+    }
+
     #lidtomvingaarden {
-        padding-left: 30%;
-        padding-right: 30%;
+        padding-left: 25%;
+        padding-right: 25%;
     }
 
     #pynt {
-        width: 15%;
+        width: 25%;
     }
 
     /* UNDERSIDE: Book vinsmagning.....1000px*/
-   
+
     #p_book p {
         font-size: 1.2em;
     }
