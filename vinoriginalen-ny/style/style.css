@@ -460,10 +460,13 @@ h5 {
     font-weight: 200;
     font-size: 15px;
 }
-.pris { font-style: italic;
+.pris { 
+    font-style: italic; 
+    font-size: 15px; 
+    padding-top: 2%;
 }
 
-.beskrivelse , li{ 
+.beskrivelse , p{ 
     font-size: 15px;
     font-family: 'gill-sans-nova', sans-serif; 
     display: block;
@@ -928,16 +931,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-left: 3%;
-    
 }
 
 #vv_tafuri, #vv_lagra, #vv_belmesseri,  #vv_caras, #vv_terre {
-    margin: 5%; width: 25%; 
+    margin: 5%; width: 25%; margin-top: 0%;
 }
 .beskrivelse, li{ 
     font-size: 15px;
     font-family: 'gill-sans-nova', sans-serif; 
 }
+
+.passertil {padding-top: 5%;}
 
 
 
@@ -1113,7 +1117,6 @@ body {
 
     /* Underside vores vine 1000px----------------------------*/
 
-    
     #alle_vine {
         display: flex;
         flex-wrap: wrap;
@@ -1157,33 +1160,42 @@ body {
    
 #vv_lagra  {
     width: 20%; 
+    height: 100%;
     margin-bottom: 5%; 
 
 }
 #vv_tafuri {
     width: 20%; 
+    height: 100%;
     margin-bottom: 5%; 
 
 } 
 #vv_belmesseri { 
     width: 20%; 
+    height: 100%;
     margin-bottom: 5%; 
 } 
 #vv_caras { 
     width: 20%; 
+    height: 100%;
     margin-bottom: 5%; 
 }
  #vv_terre {
     width: 20%; 
+    height: 100%;
     margin-bottom: 5%; 
  }
 
-
 .passertil {
+    padding-top: 10%;
+}
+
+.pris {
     padding-top: 5%;
 }
 #voresvineoverskrift
 {
     padding-top: 0%;
 }
+
 }
