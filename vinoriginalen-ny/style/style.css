@@ -218,9 +218,6 @@ p {
     color: white;
 }
 
-.vinnavn {
-    margin: 0%;
-}
 
 .kort_streg {
     margin: 0%;
@@ -290,9 +287,6 @@ p {
     padding: 1%;
 }
 
-.overgang_hvid {
-    width: 80%;
-}
 
 #underdel {
     display: flex;
@@ -336,38 +330,6 @@ p {
 #druer {
     width: 100%;
     margin-top: 3%;
-}
-
-#voresvineoverskrift {
-    font-size: 18px;
-    font-family: 'Libre Baskerville', serif;
-    text-align: center;
-    color: black;
-}
-
-#vinnavn {
-    font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
-
-}
-
-#vineflex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#vin {
-    width: 50%;
-}
-
-#beskrivelse {
-    font-family: 'gill-sans-nova', sans-serif;
-    font-weight: 200;
-}
-
-#passertil {
-    font-weight: 900;
-    padding-top: 2em;
 }
 
 
@@ -474,12 +436,14 @@ h5 {
     width: 100%;
 }
 
-
 #voresvineoverskrift {
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    color: #90943a;
+    color:#90943a;
+    padding-top: 5%;
+    margin: 1.5%;
+    padding-bottom: 3%;
 }
 
 #vinnavn {
@@ -487,39 +451,55 @@ h5 {
     font-family: 'Libre Baskerville', serif;
     color: #1f1f1f;
     padding-top: 5%;
-    padding-left: 5%;
-
+    line-height: 4%;
+    margin-top: 0%;
 }
 
-#vineflex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#vv_lagra,
-#vv_tafuri,
-#vv_belmesseri {
-    width: 40%;
-    padding-top: 10%;
-    margin: 5%;
-}
-
-#beskrivelse {
+.beskrivelse {
     font-family: 'gill-sans-nova', sans-serif;
     font-weight: 200;
     font-size: 15px;
-
+}
+.pris { font-style: italic;
 }
 
-#beskrivelse,
-li {
+.beskrivelse , li{ 
     font-size: 15px;
-    font-family: 'gill-sans-nova', sans-serif;
+    font-family: 'gill-sans-nova', sans-serif; 
+    display: block;
 }
 
-#passertil {
+.passertil {
     font-weight: 900;
-    padding-top: 2em;
+    padding-top: 1.5%;
+    font-family: 'Libre Baskerville', serif; 
+    font-family: 11px;
+
+}
+#vv_lagra, #vv_tafuri, #vv_belmesseri, #vv_caras, #vv_terre {
+    width: 50%;
+}
+#underside_lagra {
+    width: 45%; margin: 0%; display: inline-block; margin-left: 2.5%; padding-bottom: 10%;
+}
+
+#underside_tafuri {
+    width: 45%; margin: 0%; display: inline-block; margin-left: 2.5%; padding-bottom: 10%;
+}
+
+#underside_belmesseri {
+    width: 45%; margin: 0%; display: inline-block; margin-left: 2.5%; padding-bottom: 10%;
+}
+
+#underside_caras {
+    width: 45%; margin: 0%; display: inline-block; margin-left: 2.5%; padding-bottom: 10%;
+}
+
+#underside_terre {
+    width: 45%; margin: 0%; display: inline-block; margin-left: 2.5%; padding-bottom: 10%;
+}
+h5{
+ 
 }
 
 /*VORES VINE SLUT-----------------------------------------------------*/
@@ -939,7 +919,30 @@ body {
         margin-top: 4%;
     }
 
-    /* footer 700px--------------------------------------- */
+    /* Underside Vores vine 700px-----------------------------*/
+
+#voresvineoverskrift { 
+    font-size: 25px;}
+
+   #alle_vine {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    
+}
+
+#vv_tafuri, #vv_lagra, #vv_belmesseri,  #vv_caras, #vv_terre {
+    margin: 5%; width: 25%; 
+}
+.beskrivelse, li{ 
+    font-size: 15px;
+    font-family: 'gill-sans-nova', sans-serif; 
+}
+
+
+
+
+/* footer 700px--------------------------------------- */
 
     #footer_foerst {
         width: 30%;
@@ -1108,4 +1111,79 @@ body {
 
     }
 
+    /* Underside vores vine 1000px----------------------------*/
+
+    
+    #alle_vine {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+    }
+    #underside_lagra {
+        width: 20%; 
+        margin: 0%; 
+        display: inline-block; 
+        
+    }
+    
+    #underside_tafuri {
+        width: 20%; 
+        margin: 0%; 
+        display: inline-block; 
+    }
+    
+    #underside_belmesseri {
+        width: 20%; 
+        margin: 0%; 
+        display: inline-block; 
+    }
+    
+    #underside_caras {
+        width: 20%; 
+        margin: 0%; 
+        display: inline-block; 
+    }
+    
+    #underside_terre {
+        width: 20%; 
+        margin: 0%; 
+        display: inline-block; 
+    }
+
+    #vinnavn{
+        padding-top: 0; 
+        padding-bottom: 10%;
+    }
+   
+#vv_lagra  {
+    width: 20%; 
+    margin-bottom: 5%; 
+
+}
+#vv_tafuri {
+    width: 20%; 
+    margin-bottom: 5%; 
+
+} 
+#vv_belmesseri { 
+    width: 20%; 
+    margin-bottom: 5%; 
+} 
+#vv_caras { 
+    width: 20%; 
+    margin-bottom: 5%; 
+}
+ #vv_terre {
+    width: 20%; 
+    margin-bottom: 5%; 
+ }
+
+
+.passertil {
+    padding-top: 5%;
+}
+#voresvineoverskrift
+{
+    padding-top: 0%;
+}
 }
